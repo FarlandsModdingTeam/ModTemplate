@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FrancopetaMod.Properties {
+namespace ModTemplate.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace FrancopetaMod.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FrancopetaMod.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ModTemplate.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,86 +57,6 @@ namespace FrancopetaMod.Properties {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] bala {
-            get {
-                object obj = ResourceManager.GetObject("bala", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] FrancoPeta {
-            get {
-                object obj = ResourceManager.GetObject("FrancoPeta", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] semillas_balisticas {
-            get {
-                object obj = ResourceManager.GetObject("semillas_balisticas", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] semillas_balisticas_1 {
-            get {
-                object obj = ResourceManager.GetObject("semillas_balisticas_1", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] semillas_balisticas_2 {
-            get {
-                object obj = ResourceManager.GetObject("semillas_balisticas_2", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] semillas_balisticas_2_y_medio {
-            get {
-                object obj = ResourceManager.GetObject("semillas_balisticas_2_y_medio", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] semillas_balisticas_3 {
-            get {
-                object obj = ResourceManager.GetObject("semillas_balisticas_3", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Byte[].
-        /// </summary>
-        internal static byte[] semillas_balisticas_4 {
-            get {
-                object obj = ResourceManager.GetObject("semillas_balisticas_4", resourceCulture);
-                return ((byte[])(obj));
             }
         }
     }

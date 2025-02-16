@@ -10,7 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="FarlandsCoreMod" Version="0.2.0.7" />
+    <Compile Remove="test\**" />
+    <EmbeddedResource Remove="test\**" />
+    <None Remove="test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="FarlandsCoreMod" Version="0.2.0.8" />
 	  <PackageReference Include="UnityEngine.Modules" Version="2021.3.16" IncludeAssets="compile" />
   </ItemGroup>
   
@@ -32,4 +38,8 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="&#xD;&#xA;del &quot;$(TargetDir)..\$(AssemblyName).zip&quot;&#xD;&#xA;powershell -Command &quot;Compress-Archive -Path '$(TargetDir)$(AssemblyName).dll' -DestinationPath '$(TargetDir)..\$(AssemblyName).zip'&quot;" />
+  </Target>
 </Project>

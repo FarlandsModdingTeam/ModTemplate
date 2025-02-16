@@ -6,14 +6,14 @@ using FarlandsCoreMod;
 using FarlandsCoreMod.Extensors;
 using System.Diagnostics;
 using System.Linq;
-
 using FarlandsCoreMod.Utiles.Sprites;
 using UnityEngine;
-namespace FrancopetaMod
+namespace TemplateMod
 {
-    [BepInPlugin("YOUR GUID", "YOUR MOD", "YOUR VERSION")]
+    [BepInPlugin("magin.template", "YOUR MOD", "0.0.0")]
     public class TemplateMod : AbstractMod
     {
+        
         public override Sprite LoadSprite(string path)
         {
             throw new System.NotImplementedException();

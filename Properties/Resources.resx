@@ -118,28 +118,5 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bala" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bala.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="FrancoPeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\francoPeta.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="semillas_balisticas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\semillas balisticas.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="semillas_balisticas_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\semillas balisticas 1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="semillas_balisticas_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\semillas balisticas 2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="semillas_balisticas_2_y_medio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\semillas balisticas 2 y medio.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="semillas_balisticas_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\semillas balisticas 3.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="semillas_balisticas_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\semillas balisticas 4.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+ 
 </root>
